@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="testServicesModelStoreContainer" CdmEntityContainer="testServicesEntities">
+    <EntitySetMapping Name="ProcessDatas">
+      <EntityTypeMapping TypeName="testServicesModel.ProcessData">
+        <MappingFragment StoreEntitySet="ProcessData">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ServiceName" ColumnName="ServiceName" />
+          <ScalarProperty Name="PropertyName" ColumnName="PropertyName" />
+          <ScalarProperty Name="DiskSpace" ColumnName="DiskSpace" />
+          <ScalarProperty Name="DateTimeOfUsage" ColumnName="DateTimeOfUsage" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

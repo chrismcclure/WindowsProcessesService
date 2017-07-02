@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonitorService", "MonitorService\MonitorService.csproj", "{33C6BDB2-EB0D-4013-9018-EEB61716228E}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "MonitorServiceSetup", "MonitorServiceSetup\MonitorServiceSetup.vdproj", "{A2A5808A-91CC-4545-A576-69097C3B2B70}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33C6BDB2-EB0D-4013-9018-EEB61716228E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33C6BDB2-EB0D-4013-9018-EEB61716228E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33C6BDB2-EB0D-4013-9018-EEB61716228E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33C6BDB2-EB0D-4013-9018-EEB61716228E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2A5808A-91CC-4545-A576-69097C3B2B70}.Debug|Any CPU.ActiveCfg = Debug
+		{A2A5808A-91CC-4545-A576-69097C3B2B70}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
